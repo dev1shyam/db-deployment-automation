@@ -33,13 +33,12 @@ db-deployment-automation/
 
 ## 🐳 Getting Started with Docker
 1. Start SQL Server
-bash
-Copy
-Edit
+```
 cd docker
 docker-compose up -d
+```
 SQL Server will run locally at:
-
+```
 Host: localhost
 
 Port: 1433
@@ -47,16 +46,16 @@ Port: 1433
 User: sa
 
 Password: xxxxxx
-
+```
 ## 📜 Available SQL Scripts
 These are executed in order (manually or by automation scripts later):
-
+```
 001_create_tables.sql – Creates the Employees table.
 
 002_add_indexes.sql – Adds an index on the Department column.
 
 003_seed_data.sql – Inserts sample data into the table.
-
+```
 ## 🧩 What's Next
  Add shell script to auto-run all SQL scripts in order
 
