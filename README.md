@@ -26,9 +26,9 @@ db-deployment-automation/
 ├── docker/                # Docker setup for SQL Server
 │   └── docker-compose.yml
 │
-├── scripts/               # Deployment scripts (coming soon)
+├── scripts/               # Deployment scripts 
 │
-├── .github/workflows/     # GitHub Actions (coming soon)
+├── .github/workflows/     # GitHub Actions 
 ```
 
 ## 🐳 Getting Started with Docker
@@ -58,8 +58,6 @@ These are executed in order (manually or by automation scripts later):
 ```
 ## 🧩 What's Next
  Add shell script to auto-run all SQL scripts in order
-
- Add GitHub Actions workflow for CI/CD
 
  Add error handling and logging
 
